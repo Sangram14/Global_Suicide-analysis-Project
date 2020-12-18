@@ -1,13 +1,13 @@
 https://towardsdatascience.com/the-suicide-crisis-in-data-7025f8551ca8
 https://github.com/jararzaidi/The-Suicide-Crisis-in-Data/blob/master/The%20Suicide%20Crisis%20in%20Data.ipynb
 
-https://towardsdatascience.com/suicide-prevention-insights-with-data-science-2fb2636a6d82
+#https://towardsdatascience.com/suicide-prevention-insights-with-data-science-2fb2636a6d82
 
 https://ourworldindata.org/suicide
 
 https://medium.com/@sahaanadas/studying-suicide-rates-from-1985-to-2016-prediction-using-machine-learning-7c6aa1491233
 
-https://www.kaggle.com/nikitagrec/suicide-rates-visual-analysis-geographic-maps
+#https://www.kaggle.com/nikitagrec/suicide-rates-visual-analysis-geographic-maps
 
 https://www.kaggle.com/tavoosi/suicide-data-full-interactive-dashboard
 

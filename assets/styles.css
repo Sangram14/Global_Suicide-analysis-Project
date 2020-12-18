@@ -1,0 +1,110 @@
+*{
+padding:0;
+margin:0;
+text-decoration:none;
+list-style:none;
+box-sizing:border-box;
+
+}
+
+body{
+
+    font-family:montserrat;
+    background-color:#D3D3D3;
+}
+
+Nav{
+    background:#1E90FF;
+    height:80px;
+    width:100%;
+    margin-bottom:10px
+}
+
+Label.logo{
+    color:white;
+    font-size:35px;
+    line-height:80px;
+    padding:0 100px;
+    font-weight:bold;
+}
+
+Nav Ul{
+    float:right;
+    margin-right: 20px;
+}
+
+Nav Ul A Li{
+    line-height:80px;
+    display:inline-block;
+    margin:0 5px
+}
+
+Nav Ul A{
+    color:rgb(64, 71, 73);
+    font-size:22px;
+    border-radius:3px;
+    /*text-transform:uppercase;*/
+    padding:10px;
+}
+
+A.active,A:hover{
+    background:#e2e7e7;
+    transition: .5s;
+}
+
+.myrow{
+    margin-bottom:20px;
+}
+
+
+
+
+@media(max-width:952px){
+    
+    Label.Logo{
+        font-size:30px;
+        padding-left :50px;
+    }
+
+    Nav Ul Li A{
+        font-size:16px;
+    }
+}
+
+
+@media(max-width:858px){
+    .checkbtn{
+        display:block;
+    }
+
+    Ul{
+        position:fixed;
+        width:100%;
+        height:100vh;
+        background:#2c3e50;
+        top:80px;
+        left:-100%;
+        text-align:center;
+        transition:all .5s;
+    }
+
+    Nav Ul Li{
+        display:block;
+        margin:50px 0;
+        line-height:30px
+    }
+
+    Nav Ul Li A{
+        font-size:20px
+    }
+
+    A:hover,A.active{
+        background:none;
+        color:#0082e6;
+    }
+
+    #check:checked  ~ ul{
+        left:0;
+    }
+}
+
