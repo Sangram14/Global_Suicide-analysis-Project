@@ -10,11 +10,11 @@ box-sizing:border-box;
 body{
 
     font-family:montserrat;
-    background-color:#aaa8a8dc;
+    background-color:#d8e3e7;
 }
 
 Nav{
-    background: #1971b4;
+    background: #132c33;
     height:80px;
     width:100%;
     margin-bottom:10px
@@ -41,11 +41,12 @@ Nav Ul{
 Nav Ul A Li{
     line-height:80px;
     display:inline-block;
-    margin:0 5px
+    margin:0 5px;
+    color:white;
 }
 
 Nav Ul A{
-    color:rgb(255, 255, 255);
+    color:black;
     font-size:22px;
     border-radius:3px;
     text-transform:uppercase;
@@ -55,6 +56,7 @@ Nav Ul A{
 A.active,A:hover{
     background:#3e9ee7;
     transition: .5s;
+    color:#d8e3e7;
 }
 
 .myrow{
@@ -68,65 +70,87 @@ A.active,A:hover{
 .my_box_container{
     display:flex;
     color:rgb(255, 255, 255);
-    margin-left:3px
+    margin-left:5px;
+    padding:3px;
 }
 
 .my_box_input{
     cursor:pointer;
-    
+    padding:3px;
 }
 
-.VirtualizedSelectFocusedOption {                               /*The hover color as u scroll in dpdw list*/
-    background-color: rgb(120, 177, 55);
-    color: white;
-  }
 
+.mydpdw_->.select-value{
+color:white;
+}
+
+.VirtualizedSelectFocusedOption{                               /*The hover color as u scroll in dpdw list*/
+    background-color: rgb(159, 229, 241);
+    color: #132c33;
+}
+
+.mydpdw::placeholder
+{
+    color:white;
+}
   
 
-  .Select-control {                                             /*The background for dpdw list on the main screen*/
-    background-color: #3b89ee ;
-    color: white;
-  }
+.Select-control {     
+    color: white;                                        /*The background for dpdw list on the main screen*/
+    background-color: #02475e;
+   
+}
 
-  .Select-menu-outer {                                          /*The outer background for dpdw list*/
+.Select-menu-outer {                                          /*The outer background for dpdw list*/
     background-color: rgb(91, 165, 235);
-  }
+}
 
-  .Select--multi .Select-value  {
+
+.Select--multi .Select-value  {
     color: #fff;
-  }
+}
 
-  .rc-slider-track {
+
+.select-value{
+    color:#fff;
+}
+
+
+
+
+
+.rc-slider-track {
     background-color: red;                             /*for slider track*/
-  }
+}
   
-  .rc-slider-dot-active {                                /*for slider track dots*/
+.rc-slider-dot-active {                                /*for slider track dots*/
     border-color: red;
     border: solid 2px red;
-  }
+}
   
-  .rc-slider-handle {
+.rc-slider-handle {
     background-color: red;                           /*for slider end dots*/
     border-color: red;
-  }
+}
   
-  .rc.slider-handle:hover {
+.rc.slider-handle:hover {
     border-color: black;
-  }
+}
   
-  .rc.slider-handle-active:active {
+.rc.slider-handle-active:active {
     border-color: red;
-  }
+}
 
-  
+ 
 
   
 
 .my_box_label{
-    background:#3b89ee ;
+    background:#02475e;
     padding: 0.5rem 1rem;
     border-radius: 2rem;
-    margin: 0px 7px 0px 3px;
+    margin: 0px 10px 0px 3px;
+    color:white;
 }
 
 
@@ -179,4 +203,6 @@ A.active,A:hover{
         left:0;
     }
 }
+
+
 
